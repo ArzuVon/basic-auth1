@@ -7,7 +7,7 @@ const express = require('express');
 const notFoundHandler = require('./error-handlers/404.js');
 const errorHandler = require('./error-handlers/500.js');
 const logger = require('./middleware/logger.js');
-const authRoutes = require('./middleware/auth/route.js');
+const authRoutes = require('./middleware/auth/authRoute.js');
 
 const foodRoutes = require('./routes/food.js');
 const clothesRoutes = require('./routes/clothes.js');
