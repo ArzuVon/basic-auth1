@@ -10,7 +10,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=dev node index.js",
+    "dev": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "NODE_ENV=test jest --coverage",
+    "test-watch": "NODE_ENV=test jest --watchAll --coverage"
   },
   "repository": {
     "type": "git",
