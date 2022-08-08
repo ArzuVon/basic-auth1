@@ -24,6 +24,7 @@ async function signIn(req, res) {
       res.status(200).send(user);
       return;
     }
+  // eslint-disable-next-line no-empty
   } catch (e) {}
   res.status(403).send('Invalid username or password');
 }
