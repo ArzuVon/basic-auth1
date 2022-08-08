@@ -25,7 +25,7 @@ class Collection {
 
   async read(id) {
 
-    let options = { include: [...this.associations.keys()] }
+    let options = { include: [...this.associations.keys()] };
     let records = null;
 
     try {
