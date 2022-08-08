@@ -7,7 +7,7 @@ const DATABASE_URL = ['dev', 'test'].includes(process.env.NODE_ENV)
   : process.env.DATABASE_URL;
 
 
-const { Sequelize, DataTypes } = require('sequelize');
+const { Sequelize } =require('sequelize');
 
 const Collection = require('./data-collection.js');
 const foodSchema = require('./food/model.js');
