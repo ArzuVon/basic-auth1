@@ -1,7 +1,11 @@
-# Basic-Authentication X Authorization
- 
-## JWT for Authentication Lab 6
+# Basic-Authentication
 
-- [JWT Explained]()
+[PR basic-auth lab 6] ()
 
-### Authorization, verifying Lab 7
+## Author
+
+- Von A
+
+### Resources
+
+- David S
