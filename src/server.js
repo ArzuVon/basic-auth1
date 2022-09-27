@@ -7,9 +7,11 @@ const express = require('express');
 const notFoundHandler = require('./error-handlers/404.js');
 const errorHandler = require('./error-handlers/500.js');
 const logger = require('./middleware/logger.js');
+const authRoutes = require('./middleware/auth/authRoute.js');
 
 const foodRoutes = require('./routes/food.js');
 const clothesRoutes = require('./routes/clothes.js');
+const userRoutes = require('./routes/user.js');
 
 const app = express();
 
@@ -22,6 +24,8 @@ app.use(logger);
 // Use our routes from the routing module...
 app.use(foodRoutes);
 app.use(clothesRoutes);
+app.use(authRoutes);
+app.use(userRoutes);
 
 // Our Error Handlers -- need to be the last things defined!
 // These use the external modules we required above

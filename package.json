@@ -1,5 +1,41 @@
 {
   "dependencies": {
-    "bcrypt": "^5.0.1"
+    "bcrypt": "^5.0.1",
+        "dotenv": "^8.2.0",
+        "eslint": "^7.14.0",
+        "express": "^4.17.1",
+        "jest": "^26.6.3",
+        "method-override": "^3.0.0",
+        "pg": "^8.6.0",
+        "sequelize": "^6.6.2",
+        "sequelize-cli": "^6.2.0",
+        "sqlite3": "^5.0.2",
+        "supertest": "^6.0.1"
+  },
+  "name": "basic-auth1",
+  "description": "- [JWT Explained]()",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node index.js",
+    "dev": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "NODE_ENV=test jest --coverage",
+    "test-watch": "NODE_ENV=test jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArzuVon/basic-auth1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArzuVon/basic-auth1/issues"
+  },
+  "homepage": "https://github.com/ArzuVon/basic-auth1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
   }
 }
