@@ -7,7 +7,7 @@
         "jest": "^26.6.3",
         "method-override": "^3.0.0",
         "pg": "^8.6.0",
-        "sequelize": "^6.6.2",
+        "sequelize": "^6.29.0",
         "sequelize-cli": "^6.2.0",
         "sqlite3": "^5.0.2",
         "supertest": "^6.0.1"
