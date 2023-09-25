@@ -9,7 +9,7 @@
         "pg": "^8.6.0",
         "sequelize": "^6.29.0",
         "sequelize-cli": "^6.2.0",
-        "sqlite3": "^5.0.2",
+        "sqlite3": "^5.1.5",
         "supertest": "^6.0.1"
   },
   "name": "basic-auth1",
